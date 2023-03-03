@@ -1,0 +1,188 @@
+.body
+{
+    font-family:"Montserrat-sans serif";
+   
+}
+.contain
+{
+    border: 1px solid;
+    width: 80%;
+    margin: auto;
+}
+ .part1
+{
+    border: 1px solid;
+    block-size: 2rem;
+    width:100%;
+    display: flex;
+    justify-content: space-around;  
+    background-color: rgb(74, 74, 79);
+} 
+.couleur
+{
+ color: white;
+}
+.icone
+{
+    color:#D20024
+}
+
+.cote_droite
+{
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+.cote_gauche
+{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+.part2
+{
+    background-color:black;
+    border-bottom: 2px solid #D20024;
+  
+}
+.entete_2
+{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15rem;
+    align-items: center;
+
+}
+.breu
+{
+   font-size: 1.5rem;
+   font-weight: bold;
+   color: white;
+}
+.fin
+{
+    width: 20%;
+    display: flex;
+   justify-content: space-between;
+   color: white;
+}
+.nav
+{
+    display: flex;
+    border-bottom: 3px solid whitesmoke;
+}
+.part3
+{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15rem;
+    block-size: 3rem;
+    align-items: center;
+}
+.home
+{
+    color: #D20024;
+   border-bottom: 2px solid;
+
+}
+.part4
+{
+    display: flex;
+    width: 86%;
+    justify-content: space-between;
+    margin-left: 8rem;
+    margin-top: 3rem;
+}
+.texte
+{
+    color:white;
+    font-weight: bold;
+    position: absolute;
+    font-size: 20px;
+    z-index: 3;
+    padding: 1rem ;
+}
+.image_1
+{
+    display: flex;
+    block-size: 15rem;
+    width: 33rem;
+    position: relative;
+    overflow: hidden; 
+    flex: 1;
+}
+.image_1::after
+{
+    content: "";
+    position: absolute;
+    top: -228px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(189, 69, 69, 0.798);
+    transform: rotate(35deg)translate(-200px,100px);
+}
+
+.part_5
+{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-left:12rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+.materiels
+{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+  
+}
+.new_product
+{
+    margin-left: 2rem;
+    font-weight: bold;
+}
+.Lap
+{
+    color: #D20024;
+    border-bottom:2px solid #D20024;
+}
+.meme_color
+{
+    color:rgb(152, 148, 148)
+}
+.part_6
+{
+    display: flex;
+    width: 72%; 
+    margin-top: 2rem; 
+    margin-left: 12rem;   
+}
+
+.image_part6
+{
+   
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+}
+.etoile
+{
+    color: #D20024;
+    font-size: 10px; 
+    display: flex;  
+   justify-content: center;
+}
+.trait
+{
+    border-bottom: 1px solid;
+    width: 7em;
+    color: black;
+}
+

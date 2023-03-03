@@ -1,0 +1,44 @@
+.contain
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgb(10, 9, 10);
+  
+}
+.box
+{
+    border: 6px solid white;
+    font-size: 4rem;
+    color: white;
+    background-color: rgba(15, 15, 16, 0.744);
+    width:30%;
+    height:15%;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+ .box::after
+{
+    content: "Hoverable";
+    font-size: 135px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    transition: .5s;
+    opacity: 0;
+    align-items: center;
+}
+.box:hover::after
+{
+  font-size: 4rem;
+  opacity: 1;
+}  
